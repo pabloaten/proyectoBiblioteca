@@ -20,7 +20,7 @@ public class LoginPass extends JDialog implements ActionListener, WindowListener
     private static final int HEIGHT = 226;
     private Configuracion myConf;{
         try {
-            System.out.println("HOLA");
+
             myConf=Configuracion.getInstance();
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this,e.getMessage());
